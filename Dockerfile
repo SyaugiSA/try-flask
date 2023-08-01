@@ -11,5 +11,6 @@ COPY Pipfile* .
 RUN pipenv sync
 COPY package* .
 RUN npm install
+COPY . .
 # RUN pipenv run build
 CMD [ "gunicorn", "--bind", "0.0.0.0:8000", "wsgi:app" ]
