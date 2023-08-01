@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-build": "^1.0.1"
+  }
+}
