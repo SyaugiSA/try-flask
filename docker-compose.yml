@@ -4,4 +4,3 @@ services:
     ports:
       - 8002:8000
     image: alpine:latest
-    command: ["pipenv", "run", "start"]
