@@ -4,4 +4,4 @@ services:
     ports:
       - 8002:8000
     image: alpine:latest
-    command: ["gunicorn", "--bind", "0.0.0.0:8000", "wsgi:app"]
+    command: ["pipenv", "run", "start"]
