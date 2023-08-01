@@ -3,4 +3,4 @@ services:
   web:
     ports:
       - 8000:8000
-    image: alpine:lates
+    image: alpine:latest
